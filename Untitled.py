@@ -7,10 +7,13 @@ Exception handling
 if __name__
 try:
     test your code
-except Exception1. Reverse the string using for loop.
-string = "Python"
-Expected output = "nohtyP"
+except Exception
 
+-----------------------------------------------
+#Q1. Reverse the string using for loop.
+#string = "Python"
+#Expected output = "nohtyP"
+----------------------------------------------------
 # In[8]:
 
 
@@ -38,15 +41,16 @@ if __name__ == "__main__" :
     except Exception as e:
         print(e)
 
-2. Find the Largest Element in a List using for loop.
-Write a function to find the largest element in a list without using built-in sorting.
-Example
-Input: [7, 5, 8, 2, 10, 9]
-Expected Output: 10
-Example
-Input: [4, 4, 4, 4]
-Expected Output: None
-
+-----------------------------------------------------------------------------------------------
+#Q2. Find the Largest Element in a List using for loop.
+#Write a function to find the largest element in a list without using built-in sorting.
+#Example
+#Input: [7, 5, 8, 2, 10, 9]
+#Expected Output: 10
+#Example
+#Input: [4, 4, 4, 4]
+#Expected Output: None
+------------------------------------------------------------------------------------------------------
 # In[18]:
 
 
@@ -80,11 +84,13 @@ if __name__ == "__main__" :
     except Exception as e:
         print(e)
 
-3. Take the input from user and find whether number is prime or not?
-              Prime numbers are number which are divide by 1 or themselves only.
-Example: 13 is a prime number.
-Example: 97 is a prime number 
 
+---------------------------------------------------------------------------------------------
+#Q3. Take the input from user and find whether number is prime or not?
+#              Prime numbers are number which are divide by 1 or themselves only.
+#Example: 13 is a prime number.
+#Example: 97 is a prime number 
+------------------------------------------------------------------------------------------------
 # In[24]:
 
 
@@ -111,10 +117,12 @@ if __name__ == "__main__" :
     except Exception as e:
         print(e)
 
-4. Find all Prime numbers between 100 and 200?
-	All prime numbers between 100 and 200 are:
-101, 103, 107, 109, 113,127, 131, 137, 139,149, 151, 157,163, 167,173, 179, 181,191, 193, 197, 199
 
+-------------------------------------------------------------------------------------------------------
+#Q4. Find all Prime numbers between 100 and 200?
+#	All prime numbers between 100 and 200 are:
+#101, 103, 107, 109, 113,127, 131, 137, 139,149, 151, 157,163, 167,173, 179, 181,191, 193, 197, 199
+------------------------------------------------------------------------------------------------------------
 # In[36]:
 
 
@@ -140,11 +148,13 @@ if __name__ == "__main__" :
     except Exception as e:
         print(e)
 
-5. Calculate factorial of a number
-Write a function calculate_factorial that takes a number as input and returns its factorial. Handle cases where the input is not a non-negative integer or zero.
-Example: If number is 5 factorials will be (5x4x2x3x2x1=120)
-Expected output: 120 if number is 5
 
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
+#Q5. Calculate factorial of a number
+#Write a function calculate_factorial that takes a number as input and returns its factorial. Handle cases where the input is not a non-negative integer or zero.
+#Example: If number is 5 factorials will be (5x4x2x3x2x1=120)
+#Expected output: 120 if number is 5
+---------------------------------------------------------------------------------------------------------------------------------------------------------------
 # In[41]:
 
 
